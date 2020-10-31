@@ -1,0 +1,132 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 500px; }
+
+.carousel-img-1 {
+  background: url("../img/image1.jpeg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover; }
+
+.carousel-img-4 {
+  background: url("../img/girl.jpg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 40px; }
+
+#getstarted {
+  position: relative;
+  background: url("../img/bg1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+#home-video {
+  position: relative;
+  background: url("../img/people.jpeg");
+  background-size: cover;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+  #home-video .fa {
+    font-size: 40px;
+    color: #ff0000; }
+
+#gallary img {
+  min-height: 250px; }
+
+#page-header {
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed; }
+  #page-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    min-width: 250px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+#about-info img {
+  width: 400px;
+  height: 400px; }
+
+#testimonial .slick-prev::before {
+  color: #000; }
+
+#testimonial .slick-next::before {
+  color: #000; }
+
+#testimonialtwo .slick-prev::before {
+  color: #000; }
+
+#testimonialtwo .slick-next::before {
+  color: #000; }
+
+#services-header {
+  background-image: url("../img/image3.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+#accordion .row {
+  padding-bottom: 20px; }
+
+#blog-header {
+  background-image: url("../img/image2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#contact-header {
+  background-image: url("../img/image2.jpeg");
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstarted {
+    min-height: 300px; }
+  #accordion .row {
+    padding-bottom: 0; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #getstarted {
+    min-height: 380px; } }
